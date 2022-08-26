@@ -36,6 +36,10 @@ public class Commands implements CommandExecutor {
             if (arg.equalsIgnoreCase("reload")) {
                 reloadConfig.run();
                 SendMessage(sender, ChatColor.GREEN + "Config Reloaded!");
+
+            } else if (arg.equalsIgnoreCase("help")) {
+                SendMessage(sender, ChatColor.DARK_GRAY + "Usage: " + ChatColor.GRAY + "/ds <playername>");
+
             } else {
 
                 Player pl = Bukkit.getPlayer(arg);

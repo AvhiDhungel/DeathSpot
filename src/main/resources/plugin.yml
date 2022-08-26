@@ -7,6 +7,5 @@ commands:
   deathspot:
     description: Get Player's DeathSpot
     usage: /deathspot, /ds
-  ds:
-    description: Get Player's DeathSpot
-    usage: /deathspot, /ds
+    aliases: ds
+    permission: AvhiDhu.DeathSpot.Use

@@ -2,6 +2,7 @@ package com.github.AvhiDhu;
 
 import com.github.AvhiDh.SqlUtilities.*;
 
+import org.bukkit.command.PluginCommand;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -54,8 +55,10 @@ public final class DeathSpot extends JavaPlugin {
             public void run() {config = getConfig();}
         };
 
-        this.getCommand("ds").setExecutor(new Commands(reloadConfig, conn));
-        this.getCommand("deathspot").setExecutor(new Commands(reloadConfig, conn));
+        PluginCommand command = this.getCommand("deathspot");
+        command.setExecutor(new Commands(reloadConfig, conn));
+        command.setTabCompleter(new TabCompleter());
+
     }
 
 
