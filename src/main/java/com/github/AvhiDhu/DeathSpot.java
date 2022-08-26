@@ -1,4 +1,6 @@
-package dhu.avhi.deathspot;
+package com.github.AvhiDhu;
+
+import com.github.AvhiDh.SqlUtilities.*;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

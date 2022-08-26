@@ -1,0 +1,12 @@
+name: DeathSpot
+version: 1.0
+author: 'AvhiDh'
+main: com.github.AvhiDhu.DeathSpot
+api-version: '1.19'
+commands:
+  deathspot:
+    description: Get Player's DeathSpot
+    usage: /deathspot, /ds
+  ds:
+    description: Get Player's DeathSpot
+    usage: /deathspot, /ds

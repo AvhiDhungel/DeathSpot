@@ -1,8 +1,6 @@
-package dhu.avhi.deathspot;
+package com.github.AvhiDhu;
 
-import avhi.dh.SQLUtility.*;
-import dhu.avhi.SQLUtility.SqlDatabaseConnection;
-import dhu.avhi.SQLUtility.SqlQueryBuilder;
+import com.github.AvhiDh.SqlUtilities.*;
 
 public abstract class InitializeDB {
 

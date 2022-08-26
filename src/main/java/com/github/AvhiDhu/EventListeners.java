@@ -1,13 +1,13 @@
-package dhu.avhi.deathspot;
+package com.github.AvhiDhu;
 
-import avhi.dh.SQLUtility.*;
-import dhu.avhi.SQLUtility.SqlDatabaseConnection;
-import dhu.avhi.SQLUtility.SqlQueryBuilder;
+import com.github.AvhiDh.SqlUtilities.*;
+
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
+
 import java.time.LocalDateTime;
 
 public class EventListeners implements Listener {
